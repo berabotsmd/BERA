@@ -1,0 +1,59 @@
+{
+ "name": "BERA",
+ "logo": "https://telegra.ph/file/23df275c8026b7a1f1746.jpg",
+ "success_url": "/",
+ "stack": "container",
+ "env": {
+  "SESSION_ID": {
+   "description": "SESSION ID FOR BOT",
+   "required": true,
+   "value": "Session~"
+  },
+  "BOT_INFO": {
+   "description": "BOT INFO",
+   "required": true,
+   "value": "berabotsmd;BERA;https://raw.githubusercontent.com/berabotsmd/BERA/master/media/images/thumb.jpg"
+  },
+  "SUDO": {
+   "description": "SUDO NUMBERS",
+   "required": true,
+   "value": "254743982206,25487527753"
+  },
+  "AUTHOR": {
+   "description": "STICKER AUTHOR",
+   "required": false,
+   "value": "BERA"
+  },
+  "PACKNAME": {
+   "description": "STICKER PACKNAME",
+   "required": false,
+   "value": "BERA"
+  },
+  "AUTO_READ": {
+   "description": "AUTO READ MSGS",
+   "required": false,
+   "value": "false"
+  },
+  "RMBG_KEY": {
+   "description": "REMOVE BG KEY",
+   "required": false,
+   "value": ""
+  },
+  "HEROKU_APP_NAME": {
+   "description": "SAME AS ABOVE",
+   "required": true,
+   "value": ""
+  },
+  "HEROKU_API_KEY": {
+   "description": "USED FOR HEROKU VARS",
+   "required": true,
+   "value": ""
+  }
+ },
+ "formation": {
+  "worker": {
+   "quantity": 1,
+   "size": "basic"
+  }
+ }
+}
