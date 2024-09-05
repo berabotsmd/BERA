@@ -41,6 +41,24 @@
         <img alt="Panel" src="https://img.shields.io/badge/-Panel-FF7139?style=for-the-badge&logo=pterodactyl&logoColor=white"/>
     </a>
 </p>
+### Termux Setup Script
+
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs -y
+pkg install curl -y
+pkg install ffmpeg -y
+pkg install git -y
+pkg install python -y
+pkg install openssh -y
+pkg install nano -y
+pkg install wget -y
+pkg clean
+git clone https://github.com/berabotsmd/BERA
+cd BERA
+npm install
+npm start
+```
 
 ## Warning
 
